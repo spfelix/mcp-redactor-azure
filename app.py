@@ -36,6 +36,7 @@ def redact_pii():
             "kind": "PiiEntityRecognition",
             "parameters": {
                 "loggingOptOut": True,
+                "stringIndexType": "TextElements_v8"
             },
             "analysisInput": {
                 "documents": [ { "id": "1", "language": language, "text": text } ]
@@ -64,6 +65,7 @@ def redact_pii():
                 "kind": "PiiEntityRecognition",
                 "parameters": {
                     "loggingOptOut": True,
+                    "stringIndexType": "TextElements_v8"
                 },
                 "analysisInput": {
                     "documents": [ { "id": "1", "language": language, "text": text } ]
