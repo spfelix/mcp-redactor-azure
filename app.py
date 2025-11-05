@@ -64,7 +64,6 @@ def redact_pii():
                 "kind": "PiiEntityRecognition",
                 "parameters": {
                     "loggingOptOut": True,
-                    "stringIndexType": "TextElementsV8"
                 },
                 "analysisInput": {
                     "documents": [ { "id": "1", "language": language, "text": text } ]
